@@ -1,14 +1,13 @@
+import classNames from 'classnames';
 import {
   ComponentPropsWithRef,
   ForwardedRef,
   ReactElement,
   ReactNode,
-  cloneElement,
   createElement,
   forwardRef,
 } from 'react';
 import styles from './style.module.css';
-import classNames from 'classnames';
 
 type AsType = 'a' | 'button';
 
